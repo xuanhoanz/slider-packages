@@ -1,0 +1,26 @@
+{
+    "name": "pine/pine-slider",
+    "description": "This is Pine slider view component package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pine\\PineSlider\\": "src/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "xuanhoanz"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pine\\PineSlider\\PineSliderServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
